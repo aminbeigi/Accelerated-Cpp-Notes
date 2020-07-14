@@ -1,6 +1,5 @@
 # Accelerated-Cpp-Notes
-## Description
-Personal study notes and solutions to the book "Accelerated C++".  
-**More Solutions can be found [here](http://mathalope.co.uk/accelerated-c-solutions/).**
+## Chapter 0 - Getting Started
+* In ```main()``` a return of 0 means success, any other value means failure.
 ## Licence
 Free to use.
