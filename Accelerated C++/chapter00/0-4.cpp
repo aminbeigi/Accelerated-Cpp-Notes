@@ -8,4 +8,5 @@ int main() {
                  "return 0;\n"
                  "{"
               << std::endl;
+    return 0;
 }
