@@ -2,8 +2,7 @@
 
 int
 main
-(
-)
+()
 {  
 std::cout
 <<
@@ -11,5 +10,5 @@ std::cout
 <<
 std::endl;
 return
- 0;
+0;
 }
