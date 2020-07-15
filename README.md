@@ -13,3 +13,12 @@
     * // comment
 * The standard library defines its names in headers, which programs access through `#include`.
     * The `<iostream>` header defines the library's input-output facilities.
+#### Chapter 1 - Working with Strings
+* A variable is an object that has a name.
+* When reading strings, the library discards whitespace characters from the input.
+* The input-output library saves its output in an internal data structure called a buffer.
+* The library uses the buffer to accumulate the characters to be written, and flushes the buffer.
+* The three eents that cause the system to flush the buffer.
+   * buffer is full, library will flush automatically
+   * library is asked to read input, library immediately flushes the output buffer
+   * buffer can be flushed explicitly 
