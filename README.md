@@ -22,4 +22,5 @@
    * buffer is full, library will flush automatically
    * library is asked to read input, library immediately flushes the output buffer
    * buffer can be flushed explicitly 
-* Operator is overloaed when an operator has different meanings for operands of different types.
+* Operator is overloaded when an operator has different meanings for operands of different types.
+* **Two string literals cannot be concatenated: that is `“hello” + “World” `is an invalid operation. Although a string and a string literal can be concatenated.**
