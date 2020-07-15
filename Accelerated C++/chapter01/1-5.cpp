@@ -2,7 +2,7 @@
 #include <string>
 
 // valid program
-// move initialisation of x to 2nd left brace
+// move initialisation of x inside of first left brace
 int main() {
     {
         std::string s = "a string";
