@@ -3,6 +3,7 @@
 * Angle brackets (<>) is used to call the standard library.
 * In `main()` a return of 0 means success, any other value means failure.
 * A namespace is a collection of related names.
+* Directives begin with '#'.
 * The standard library defines all of its names in a namespace called `std`.
 * `std::cout` is an operand and `<<` is an operator.
 * To the left of the scope operator (`::`) is a namespace called `std`, to the right is a name that is defined in the scope.
