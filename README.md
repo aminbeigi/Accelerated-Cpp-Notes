@@ -34,5 +34,5 @@
 * Local variables of built-in type that are not explicity initialised are undefined, which means the variable's value consists of whatever random garbage already happens to occupy memory.
 * It is illegal to do anything with an undefined value except to overwrite it with a valid value.
 #### General
-* Almost always right to use double for float-point computations.
+* Almost always right to use `double for` float-point computations.
 * Use `setprecision` manipulator to minimise the part of the program in which precision is set to an unusual value. 
