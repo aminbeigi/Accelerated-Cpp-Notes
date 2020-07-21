@@ -29,3 +29,7 @@
 * `unsigned` is an integral type that contains only non-negative values.
 * `size_t` is an unsigned integral type that can hold any objects size.
 * `string::size_type` is an unsigned integral type that can hold the size of any string.
+#### Chapter 3
+*
+#### General
+*
