@@ -25,14 +25,16 @@
    * buffer can be flushed explicitly 
 * Operator is overloaded when an operator has different meanings for operands of different types.
 * Two string literals cannot be concatenated: that is `“hello” + “World” `is an invalid operation. Although a string and a string literal can be concatenated.
-#### Chapter 2 - Loops and counting
+#### Chapter 2 - Loops and Counting
 * `unsigned` is an integral type that contains only non-negative values.
 * `size_t` is an unsigned integral type that can hold any objects size.
 * `string::size_type` is an unsigned integral type that can hold the size of any string.
-#### Chapter 3
+#### Chapter 3 - Working with Batches of Data
 * If an initial value is not given to a variable, implicity we rely on defualt-initialisation.
 * Local variables of built-in type that are not explicity initialised are undefined, which means the variable's value consists of whatever random garbage already happens to occupy memory.
 * It is illegal to do anything with an undefined value except to overwrite it with a valid value.
+* A `vector` is a container that holds a collection of values.
 #### General
 * Almost always right to use `double` for float-point computations.
 * Use `setprecision` manipulator to minimise the part of the program in which precision is set to an unusual value. 
+* Use the `size_type` that the library defines to represent container sizes.
