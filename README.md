@@ -25,7 +25,7 @@
    * buffer can be flushed explicitly 
 * Operator is overloaded when an operator has different meanings for operands of different types.
 * Two string literals cannot be concatenated: that is `“hello” + “World” `is an invalid operation. Although a string and a string literal can be concatenated.
-#### Chapter 2 - Loops and Counting
+### Chapter 2 - Loops and Counting
 * `unsigned` is an integral type that contains only non-negative values.
 * `size_t` is an unsigned integral type that can hold any objects size.
 * `string::size_type` is an unsigned integral type that can hold the size of any string.
