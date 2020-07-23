@@ -2,3 +2,5 @@
 *.exe
 # ignore VS Code config settings
 .vscode/
+# ignore 
+.tempCodeRunnerFile.cpp
