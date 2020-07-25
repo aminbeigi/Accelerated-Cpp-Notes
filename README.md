@@ -40,3 +40,5 @@
 * Use `setprecision` manipulator to minimise the part of the program in which precision is set to an unusual value. 
 * Use the `size_type` that the library defines to represent container sizes.
 ### Google Style Guide
+* Variable names lowercase with underscore:
+   * `std::string table_name;`
