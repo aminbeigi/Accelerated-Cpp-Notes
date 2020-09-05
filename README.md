@@ -35,6 +35,9 @@
 * It is illegal to do anything with an undefined value except to overwrite it with a valid value.
 * A `vector` is a container that holds a collection of values.
 * `typedef` defines name as a synonym for type.
+### Chapter 4 - Organizing Programs and Data
+* When referencing a variable, & asks the implementation not to copy the arguement but to bind the paramter directly to the arugement.
+
 ### General
 * Almost always right to use `double` for float-point computations.
 * Use `setprecision` manipulator to minimise the part of the program in which precision is set to an unusual value. 
