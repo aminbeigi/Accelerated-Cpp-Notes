@@ -39,4 +39,3 @@
 * Almost always right to use `double` for float-point computations.
 * Use `setprecision` manipulator to minimise the part of the program in which precision is set to an unusual value. 
 * Use the `size_type` that the library defines to represent container sizes.
-### Google Style Guide
