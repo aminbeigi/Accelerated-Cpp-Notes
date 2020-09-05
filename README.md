@@ -36,7 +36,7 @@
 * A `vector` is a container that holds a collection of values.
 * `typedef` defines name as a synonym for type.
 ### Chapter 4 - Organizing Programs and Data
-* When referencing a variable, & asks the implementation not to copy the arguement but to bind the paramter directly to the arugement.
+* When referencing a variable, & asks the implementation not to copy the arguement but to bind the paramter directly to the arguement.
 
 ### General
 * Almost always right to use `double` for float-point computations.
