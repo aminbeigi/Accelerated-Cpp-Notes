@@ -41,7 +41,10 @@
 * `vector`s are optimised for fast random access.
    * It is expensive to insert of delete elements other than at the end of a `vector`.
 * We should use iterators if we are only looking for sequential access, we do not need to use indices.
-* `list`s are optimised for fast insertion and deletion anywhere within the container.
+* `list`s are optimised for fast insertion and deletion anywhere within the container. 
+   * `list`s do not support indexing.
+* If the container is accessed sequentially, that is, if the container grows and shrinks primarily from the end. A `vector` will outperform a `list`.
+* If the program deletes many elements from the middle, then `list`s will outperfrom `vector`s.
 ### General
 * Almost always right to use `double` for float-point computations.
 * Use `setprecision` manipulator to minimise the part of the program in which precision is set to an unusual value. 
