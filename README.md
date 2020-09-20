@@ -40,9 +40,9 @@
 ### Chapter 5 - Using Sequential Containers and Analyzing Strings
 * `vector`s are optimised for fast random access.
    * It is expensive to insert of delete elements other than at the end of a `vector`.
-* We should use iterators if we are only looking for sequential access, we do not need to use indices.
 * `list`s are optimised for fast insertion and deletion anywhere within the container. 
-   * `list`s do not support indexing.
+   * Do not support indexing.
+* We should use iterators if we are only looking for sequential access, we do not need to use indices.   
 * If the container is accessed sequentially, that is, if the container grows and shrinks primarily from the end. A `vector` will outperform a `list`.
 * If the program deletes many elements from the middle, then `list`s will outperfrom `vector`s.
 ### General
