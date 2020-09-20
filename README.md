@@ -38,13 +38,13 @@
 ### Chapter 4 - Organizing Programs and Data
 * When referencing a variable, & asks the implementation not to copy the arguement but to bind the paramter directly to the arguement.
 ### Chapter 5 - Using Sequential Containers and Analyzing Strings
-* `vector`s are optimised for fast random access.
+* `vector` is optimised for fast random access.
    * It is expensive to insert of delete elements other than at the end of a `vector`.
-* `list`s are optimised for fast insertion and deletion anywhere within the container. 
+* `list` is optimised for fast insertion and deletion anywhere within the container. 
    * Do not support indexing.
 * We should use iterators if we are only looking for sequential access, we do not need to use indices.   
 * If the container is accessed sequentially, that is, if the container grows and shrinks primarily from the end. A `vector` will outperform a `list`.
-* If the program deletes many elements from the middle, then `list`s will outperfrom `vector`s.
+* If the program deletes many elements from the middle, then `list` will outperfrom `vector`.
 ### General
 * Almost always right to use `double` for float-point computations.
 * Use `setprecision` manipulator to minimise the part of the program in which precision is set to an unusual value. 
