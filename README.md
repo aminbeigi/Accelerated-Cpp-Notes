@@ -45,7 +45,15 @@
 * We should use iterators if we are only looking for sequential access, we do not need to use indices.   
 * If the container is accessed sequentially, that is, if the container grows and shrinks primarily from the end. A `vector` will outperform a `list`.
 * If the program deletes many elements from the middle, then `list` will outperfrom `vector`.
+### Chapter 6 - Using Library Algorithms
+* `find` returns its second argument if it fails to find the value that it seeks.
+* **Iterator adaptors** are functions that yeild iterators.
+    * `back_inserter(c)` yeilds an iterator on the container c that appends elements to c.
+	* `front_inserter(c)`
+	* `inserter(c, it)` like `back_inserter`, but inserts elements before the iterator `it`.
+
 ### General
 * Almost always right to use `double` for float-point computations.
 * Use `setprecision` manipulator to minimise the part of the program in which precision is set to an unusual value. 
 * Use the `size_type` that the library defines to represent container sizes.
+
